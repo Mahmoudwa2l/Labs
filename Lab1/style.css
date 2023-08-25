@@ -1,0 +1,13 @@
+.custom-font {
+    font-family: "Roboto Slab", serif;
+  }
+  .food {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  .gridfood {
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  }
