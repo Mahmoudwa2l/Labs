@@ -1,5 +1,5 @@
 function day1(){
-    window.location.href = "Labs/Lab1/index.html";
+    window.location.href = "./Lab1/index.html";
 }
 function day2(){
     window.location.href = "./Lab2/lab2.html";
