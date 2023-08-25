@@ -1,0 +1,96 @@
+.header{
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(248, 248, 247);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    
+   
+}
+.title{
+    right: 0;
+    margin-left: 50px;
+}
+.xicone{
+    margin-right: 50px;
+}
+.imgicone:hover{
+    cursor: pointer;
+}
+.imgicone2:hover{
+    cursor: pointer;
+}
+.imgicone{
+    width: 20px;
+    height: 20px;
+}
+.imgicone2{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    padding-top: 5px;
+}
+.skillswrap{
+    margin-left: 40px;
+    margin-bottom: 50px;
+    
+}
+.selectedskills{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 90%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.skills{
+    background-color: rgb(224, 220, 220);
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.button1{
+    background-color: limegreen;
+    color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: green;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+
+}
+.button2{
+    background-color:transparent;
+    color: limegreen;
+    border-color: transparent;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.button2:hover{
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+    border-color:green;
+
+}

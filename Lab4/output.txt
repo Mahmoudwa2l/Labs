@@ -1,0 +1,15 @@
+Question 1
+Error 1
+Success 4
+
+Question 2
+success
+error
+Error caught
+
+Question 3
+success
+Defeat
+error
+Error caught
+Success: test

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+    <div id="content"></div>
+
+    <script>
+      async function start() {
+        const welcomePage = new WelcomePage();
+        welcomePage.displayWelcomeMessage();
+
+        await welcomePage.waitFor(3000);
+
+        const userImagePage = new UserImagePage();
+        userImagePage.displayUserImage();
+
+        await userImagePage.waitFor(3000);
+
+        const thanksPage = new ThanksPage();
+        thanksPage.displayThanksMessage();
+
+        await thanksPage.waitFor(3000);
+
+        const redirectPage = new RedirectPage();
+        redirectPage.redirectToAnotherPage();
+      }
+      start().catch((error) => console.error(error));
+    </script>
+  </body>
+</html>

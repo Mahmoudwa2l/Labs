@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    
+}
+
+.title{
+    font-size: 25px;
+}
+.Questions{
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.Question1{
+    margin-bottom: 10px;
+    
+}
+.Question3{
+    margin-bottom: 10px;
+    
+    
+}
+.char{
+    margin-bottom: 10px;
+}
+.string{
+    margin-bottom: 10px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 20px;
+}
+
+.task {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.output {
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+.butt{
+    
+    cursor: pointer;
+    background-color: limegreen;
+    border-radius: 10px;
+    border-color: transparent;
+    height: 30px;
+}
+.butt:hover{
+    background-color: green;
+    color: white;
+}
+.input{
+    border-radius: 10px;
+    border-color: transparent;
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    outline: none;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+
+.char{
+    display: flex;
+    
+}
+.label1{
+    margin-bottom: 10px;
+    display: flex;
+   
+}
