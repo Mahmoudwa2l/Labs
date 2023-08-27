@@ -1,0 +1,11 @@
+.bg-color{
+    background-color: #808080;
+}
+.myfocus{
+    width: 200px;
+}
+
+.custom-hr{
+    border: 2px solid black;
+    border-color: black;
+}

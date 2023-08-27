@@ -1,0 +1,11 @@
+.wrapper{
+    height: 30px;
+    width: 400px;
+}
+.width{
+    height: 30px;
+    margin-top: 10px;
+}
+.color{
+    background-color: rgb(83, 77, 77);
+}

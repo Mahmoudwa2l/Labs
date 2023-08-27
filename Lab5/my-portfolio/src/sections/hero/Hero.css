@@ -1,0 +1,13 @@
+.title{
+    color: white;
+    margin-right: 30% ;
+    
+}
+.img{
+    height: 700px;
+    width: 400px;
+   
+}
+.btnn:hover{
+    color: black;
+}
