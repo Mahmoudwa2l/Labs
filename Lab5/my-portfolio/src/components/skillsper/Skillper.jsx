@@ -6,8 +6,8 @@ function Skillper(props) {
         <div className={'col-3 width color'}>
             {props.skill}
         </div>
-        <div className="col-9">
-            {props.per}
+        <div className={`percolor width  col-${props.per}`}>
+            test
         </div>
     </div>
   )

@@ -1,10 +1,14 @@
 import "./Card.css";
 
-function Card() {
+function Card(props) {
   return (
-    <div class="card col-4 m-3 d-flex justify-content-center align-items-center">
-    hello
+    <div className={`card col-2 m-4 d-flex justify-content-center align-items-center ${props.bgcolor}`}>
+    <div className="row d-flex justify-content-center align-items-center">
+      <h1 className="col-12 h3">{props.title}</h1>
+      <hr className="col-12 border-black custom-hr w-100" />
+    </div>
   </div>
+  
     
   );
 }

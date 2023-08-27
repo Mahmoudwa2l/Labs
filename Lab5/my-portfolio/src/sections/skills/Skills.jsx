@@ -54,10 +54,10 @@ function Skills() {
           
         </div>
         <div className="col-sm-4 ms-3 ">
-          <Skillper skill={"HTML"} per={"2"}/>
-          <Skillper skill={"css"}/>
-          <Skillper skill={"JavaScript"}/>
-          <Skillper skill={"React"}/>
+          <Skillper skill={"HTML"} per={"3"}/>
+          <Skillper skill={"css"} per={"2"}/>
+          <Skillper skill={"JavaScript"} per={"5"}/>
+          <Skillper skill={"React"} per={"4"}/>
           
         </div>
       </div>
