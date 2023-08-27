@@ -11,5 +11,5 @@ function day4(){
     window.location.href = "./Lab4/index.html";
 }
 function day6(){
-    window.location.href = "./Lab5/index.html";
+    window.location.href = "./Lab5/my-portfolio/index.html";
 }
