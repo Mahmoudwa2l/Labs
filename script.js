@@ -10,3 +10,6 @@ function day3(){
 function day4(){
     window.location.href = "./Lab4/index.html";
 }
+function day6(){
+    window.location.href = "./Lab5/index.html";
+}
