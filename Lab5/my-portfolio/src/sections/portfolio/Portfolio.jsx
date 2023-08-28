@@ -8,14 +8,12 @@ function Portfolio() {
       <Card title={"React"} bgcolor={'bg-primary'}/>
       <Card title={"Mobile design"} bgcolor={'bg-danger'}/>
       <Card title={"Logo-design"} bgcolor={'bg-success'}/>
-      
+      <Card title={"Web Application development"}  bgcolor={'bg-success'}/>
+      <Card title={"Logo-design"}  bgcolor={'bg-danger'}/>
+      <Card title={"Mobile-design"}  bgcolor={'bg-primary'}/>
       
       </div>
-      <div className="row ">
-      <Card title={"Web Application development"}/>
-      <Card title={"Logo-design"}/>
-      <Card title={"Mobile-design"}/>
-      </div>
+      
     </div>
     
   )

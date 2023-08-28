@@ -40,13 +40,13 @@ function Skills() {
               <h5>UI / UX design</h5>
           </div>
             <div className="col-12 text-center">
-              <h5>UI / UX design</h5>
+              <h5>React</h5>
           </div>
             <div className="col-12 text-center">
-              <h5>UI / UX design</h5>
+              <h5>Mobile design</h5>
           </div>
             <div className="col-12 text-center">
-              <h5>UI / UX design</h5>
+              <h5>Web-application</h5>
           </div>
 
           </div>
