@@ -1,0 +1,17 @@
+1- Add navbar with link for different pages as shown in task:
+create account in the movie db website:
+https://www.themoviedb.org/login
+
+2- Get movies list using API :
+https://www.themoviedb.org/3/movie/popular?apikey={apiKey}
+
+3- Using dynamic routes get movie details data using API :
+https://www.themoviedb.org/3/movie/880009?api_key={apiKey}
+where 880009 is the movie ID
+
+4- handle paginatin by send query params to url called page :
+
+
+5- Apply search for movies using the following api [ bonus ]
+
+6- Make Favorites route a guarded route [bounus]
